@@ -15,10 +15,12 @@ public class Car {
 
     public static void main(String[] args) {
         Car car1 = new Car();
-        Car car2 = new Car("2NDBSC", (float) 100, "blue");
+        Car car2 = new Car("2NDBSC", 100, "blue");
 
-        car1.setCar("1SFSDX", (float) 60, "red");
-        car2.setSpeed((float) 40);
+        car1.setCar("1SFSDX", 60, "red");
+        car2.setSpeed(40);
+        car1.brake(50);
+        car2.accelerate(55);
 
         if (car1.getSpeed() > car2.getSpeed()) {
             System.out.println(car1.getColour());
@@ -58,8 +60,14 @@ public class Car {
     }
 
     void accelerate(float speed) {
+        if (speed > 0) {
+            this.speed = speed;
+        }
     }
 
     void brake(float speed) {
+        if (speed > 0) {
+            this.speed = speed;
+        }
     }
 }
