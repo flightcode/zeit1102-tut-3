@@ -4,6 +4,9 @@ public class Car {
     float speed;
     String colour;
 
+    public Car() {
+    }
+
     public Car(String rego, float speed, String colour) {
     }
 
