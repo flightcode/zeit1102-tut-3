@@ -13,15 +13,21 @@ public class Car {
     }
 
     void setCar(String rego, float speed, String colour) {
+        this.rego = rego;
+        this.speed = speed;
+        this.colour = colour;
     }
 
     void setRego(String rego) {
+        this.rego = rego;
     }
 
     void setSpeed(float speed) {
+        this.speed = speed;
     }
 
     void setColour(String colour) {
+        this.colour = colour;
     }
 
     String getRego() {
