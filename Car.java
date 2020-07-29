@@ -5,7 +5,6 @@ public class Car {
     String colour;
 
     public Car(String rego, float speed, String colour) {
-        rego = rego;
     }
 
     public static void main(String[] args) {
