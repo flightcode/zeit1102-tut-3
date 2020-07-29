@@ -35,12 +35,15 @@ public class Car {
     }
 
     String getRego() {
+        return this.rego;
     }
 
     float getSpeed() {
+        return this.speed;
     }
 
     String getColour() {
+        return this.colour;
     }
 
     void accelerate(float speed) {
