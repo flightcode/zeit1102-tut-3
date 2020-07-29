@@ -27,6 +27,8 @@ public class Car {
         } else {
             System.out.println(car2.getColour());
         }
+
+        System.out.println(car1.toString());
     }
 
     void setCar(String rego, float speed, String colour) {
@@ -69,5 +71,9 @@ public class Car {
         if (speed > 0) {
             this.speed = speed;
         }
+    }
+
+    public String toString() {
+        return this.rego + " " + this.speed + " " + this.colour;
     }
 }
