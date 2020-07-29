@@ -8,6 +8,9 @@ public class Car {
     }
 
     public Car(String rego, float speed, String colour) {
+        this.rego = rego;
+        this.speed = speed;
+        this.colour = colour;
     }
 
     public static void main(String[] args) {
@@ -52,8 +55,5 @@ public class Car {
     }
 
     void brake(float speed) {
-    }
-
-    String toString() {
     }
 }
