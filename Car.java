@@ -19,6 +19,12 @@ public class Car {
 
         car1.setCar("1SFSDX", (float) 60, "red");
         car2.setSpeed((float) 40);
+
+        if (car1.getSpeed() > car2.getSpeed()) {
+            System.out.println(car1.getColour());
+        } else {
+            System.out.println(car2.getColour());
+        }
     }
 
     void setCar(String rego, float speed, String colour) {
