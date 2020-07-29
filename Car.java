@@ -4,9 +4,13 @@ public class Car {
     float speed;
     String colour;
 
+    public Car(String rego, float speed, String colour) {
+        rego = rego;
+    }
+
     public static void main(String[] args) {
         Car car1 = new Car();
-        Car car2 = new Car();
+        Car car2 = new Car("2NDBSC", (float) 100, "blue");
 
         car1.setCar("1SFSDX", (float) 60, "red");
         car2.setSpeed((float) 40);
