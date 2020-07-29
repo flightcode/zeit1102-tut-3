@@ -5,7 +5,8 @@ public class Car {
     String colour;
 
     public static void main(String[] args) {
-        // Do stuff
+        Car car1 = new Car();
+        Car car2 = new Car();
     }
 
     void setCar(String rego, float speed, String colour) {
